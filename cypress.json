@@ -1,0 +1,13 @@
+{
+  "baseUrl": "https://www.demoblaze.com/",
+  "reporter": "teamcity",
+  "reporterOptions": {
+      "overwrite": false,
+      "html": true,
+      "reportDir": "cypress/reports",
+      "mochaFile": "reports/my-test-output.xml",
+      "toConsole": true
+  },
+  "viewportWidth": 1920,
+  "viewportHeight": 1080
+}
